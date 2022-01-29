@@ -15,7 +15,7 @@
  */
 package com.example.lemonade
 
-import androidx.test.core.app.launchActivity
+//import androidx.test.core.app.launchActivity
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.action.ViewActions.longClick
@@ -35,10 +35,10 @@ import org.junit.runner.RunWith
 @LargeTest
 class LemonadeTests : BaseTest() {
 
-    @Before
-    fun setup() {
-        launchActivity<MainActivity>()
-    }
+    //@Before
+    //fun setup() {
+    //    launchActivity<MainActivity>()
+    //}
 
     /**
      * Test the view components of the pick lemon state
